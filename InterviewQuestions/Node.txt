@@ -1,0 +1,121 @@
+//////Complete//////
+
+Q - What is Node.js? Where can you use it?
+
+A -Node.js is an open-source, cross-platform JavaScript runtime environment which runs web applications outside the browser. 
+It is used to create server-side web applications.
+
+It is perfect for data-intensive applications as it uses an asynchronous, event-driven model.
+ You can used for  I/O intensive web applications like video streaming sites.
+  You can also use it for developing: Real-time web applications, Network applications, General-purpose applications, and Distributed systems.
+
+
+
+Q - Why use Node.js?
+
+A - Node.js makes building scalable applications easy. Some of its advantages include:
+
+It is generally fast
+It rarely blocks
+It offers a unified programming language
+Everything is asynchronous 
+It yields great concurrency
+
+
+
+Q - How does Node.js work?
+
+A - Clients send requests to the webserver to interact with the web application. Requests can be non-blocking or blocking:
+Querying for data
+Deleting data 
+Updating the data
+
+Node receives the incoming requests and adds those to the Event Queue
+The requests are then passed one-by-one to the Event Loop.
+ It checks if the requests are simple non-blocking operations, such as I/O Polling, and returns the responses to the corresponding clients
+
+A single thread from the Thread Pool is assigned to a single complex asynchronous request.
+ This thread is responsible for completing a particular blocking request like accessing external resources like database, file system or computation etc.
+
+Once the task is carried out completely, the response is sent to the Event Loop that sends that response back to the client.
+
+
+https://www.simplilearn.com/ice9/free_resources_article_thumb/Node.js_Architecture_Workflow.png
+
+
+
+
+Q - Why is Node.js Single-threaded?
+
+A - Node.js is single-threaded for async processing.
+ By doing async processing on a single-thread  more performance and scalability can be achieved.
+
+
+
+Q - If Node.js is single-threaded, then how does it handle concurrency?
+
+A - Node follows  the Single-Threaded Event Loop Model.
+ Node is heavily influenced by the JavaScript Event-based model callback system. 
+ As a result, Node.js can easily manage more concurrent client requests. 
+
+
+
+
+ Q - Explain callback in Node.js.
+
+ A - A callback function is called after completion of  a given task.
+    It allows other code to be run and prevents any blocking.
+    Node being an asynchronous platform relies heavily on callback. 
+    All APIs of Node are written to support callbacks.
+
+ 
+
+ Q - What are the advantages of using promises instead of callbacks?
+ A -  The control flow of asynchronous logic is more specified and structured.
+      There built-in error handling.
+      Improved readability.
+
+
+
+ Q - How is Node.js most frequently used?
+ A -  Real-time chats
+      Internet of Things
+      Complex SPAs (Single-Page Applications)
+      Real-time collaboration tools
+      Streaming applications
+      Microservices architecture
+
+
+
+ Q - Which database is more popularly used with Node.js?
+
+ A - MongoDB is the most common database used with Node.js. 
+     It is a NoSQL, cross-platform, document-oriented database.
+     It provides high performance, high availability, and easy scalability.
+
+ 
+ Q -  What is an Event Loop in Node.js?
+ 
+ A - Event loops handle asynchronous callbacks in Node. 
+ It is the foundation of the non-blocking input/output in Node.
+
+
+Q - Explain the concept of middleware in Node.js.
+A - Middleware is a function that has access  to the request and response objects.  
+
+Execute any code
+Update or modify the request and the response objects
+Finish the request-response cycle
+Invoke the next middleware in the stack
+
+
+
+
+
+ //Test//
+   
+   
+   
+
+ //Test//
+

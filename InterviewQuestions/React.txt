@@ -1,0 +1,170 @@
+Q - What is the meaning of the component-based architecture of React?
+
+A- In React, components are foundations used to build user interfaces for applications. 
+With the component-based system in place, all of the individual entities become completely reusable and independent of each other. 
+This means that rendering the application is easy and not dependent on the other components of the UI.
+
+
+
+Q - What are props in React?
+
+A- Props stands for properties in React.
+ Props are read-only and  are immutable in nature. 
+ In an application props follow a hierarchy, they are passed down from parents to child components. 
+However, the reverse is not supported. This is done to ensure that there is only a  unidirectional flow of data at all times.
+
+
+
+
+Q - What is the meaning of Redux?
+
+A - Redux is used to store the state of the application in a single entity, usually a JavaScript object. 
+  States can be changed by pushing out actions from the application and writing corresponding objects for them that modify the states.
+
+
+
+Q - What are the three phases of a component life cycle in React?
+
+A - The following are the three phases of a component life cycle:
+ 
+Initial rendering: This is the phase that involves the beginning of the journey of the component to the DOM.
+Update: Here, the component can be updated and rendered again if required after it gets added to the DOM.
+Unmounting: The final phase involves the destruction of the component and its eventual removal from the DOM.
+
+
+
+
+
+
+Q - What are events in React?
+
+A - Whenever there are actions performed in React, such as hovering the mouse or pressing a key on the keyboard, these actions trigger events.
+ Events then perform set activities as a response to these triggers. 
+
+
+
+Q -  What are the advantages of using Redux?
+
+A - There are many advantages of Redux, and some of them are as given below:
+
+Organized Approach	Redux requires code to be organized, thereby making it consistent and easy to work with
+Testing Ability	Redux functions are small and isolated, making the code more independent and testable
+
+
+
+Q - What are higher-order components (HOCs) used for?
+
+A - HOCs are used for a variety of tasks such as:
+
+Manipulation of props
+State manipulation and abstraction
+Render highjacking
+Code reusing
+
+
+
+
+Q - What is React?
+
+A - React is a declarative, efficient, flexible open source front-end JavaScript library developed by Facebook in 2011.
+ It follows the component-based approach for building reusable UI components, especially for single page application.
+  It is used for developing interactive view layer of web and mobile apps.
+
+
+
+Q - Why can't browsers read JSX?
+
+A - Browsers cannot read JSX directly because they can only understand JavaScript objects, and JSX is not a regular JavaScript object. 
+Thus, we need to transform the JSX file into a JavaScript object using transpilers like Babel and then pass it to the browser.
+
+
+
+Q - What do you understand by the state in React?
+
+A - The state of a component is an object that holds some information that gets updated over the component's lifetime.
+The state is very similar to props, but it is private and fully controlled by the component. i.e., It is not accessible to any other component till the owner component decides to pass it.
+
+
+
+
+Q -  What do you understand by refs in React?
+
+A - Refs stands for 'references' in React.
+    It is an attribute that stores a reference to particular DOM element.
+
+
+
+ Q - What is React Router?
+
+A - React Router displays multiple views in a single page application.
+When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular Route.
+
+
+
+
+ Q - What are hooks in React?
+
+A - Hooks are the new feature introduced in React version 16.
+    Hooks allows us to  use, state outside of the class.
+    Hooks are called at the top level of the  React functions and not inside the loops, conditions.
+ This is used to ensure that hooks are called in the same order each time a component renders, and it also preserves the state of hooks between multiple useState and useEffect calls.
+
+
+
+Q - What were the major problems with MVC framework?
+
+A - The major problems with the MVC framework are:
+
+DOM manipulation was very expensive.
+It makes the application slow and inefficient.
+There was a huge memory wastage.
+It makes the application debugging hard
+
+
+
+
+
+Q - What is Redux?
+
+A - Redux is an open-source JavaScript library used to manage application state.     
+React Redux is the official React binding for Redux.
+ It allows React components to access data by subscribing to  a Redux Store, and dispatch Actions to the Store to update State.
+
+
+
+
+Q - What are the three principles that Redux follows?
+
+A - The three principles that redux follows are:
+
+Single source of truth: The State of your entire application is stored in an object inside a single Store.
+
+The State is read-only: The only way to update state is by emitting an action.
+
+Changes are made with pure functions: Reducers(pure functions) take the previous State and Action as a parameter and return a new State.
+
+
+
+
+Q - List down the components of Redux.
+
+A - STORE: It is a container for the entire state management of the application.
+ACTION: It is an object which describes what happened.
+REDUCER: It determines how the State will change.
+
+
+
+Q - What are the advantages of Redux?
+
+A - It implements many performance optimizations internally, which allows to components re-render only when it actually needs.
+It makes the code maintenance easy.
+Redux's code written as functions are small, pure, and isolated, which makes the code testable and independent.
+
+
+
+
+
+//Test//
+
+
+//Test//
